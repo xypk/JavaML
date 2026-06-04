@@ -1,0 +1,16 @@
+{
+  "dataset": "example_json/MachineData.json",
+  "model": "example_json/CustomModel.json",
+  "evaluator": {
+    "type": "F1",
+    "params": {
+      "holistic": true
+    }
+  },
+  "validation": "KFold",
+  "label_from": 9,
+  "label_to": 9,
+  "train_ratio": 0.8,
+  "batches": 5,
+  "epochs": 1000
+}

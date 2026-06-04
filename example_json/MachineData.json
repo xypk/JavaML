@@ -1,0 +1,22 @@
+{
+  "srcdir": "example_data",
+  "path": "machine.csv",
+  "columns": [
+    {"type": "integer",
+    "names": [
+      "footfall",
+      "tempMode",
+      "AQ",
+      "USS",
+      "CS",
+      "VOC",
+      "RP",
+      "IP",
+      "Temperature",
+      "fail"
+    ]}
+  ],
+  "seed": 0,
+  "shuffle": true,
+  "skip_lines": 1
+}

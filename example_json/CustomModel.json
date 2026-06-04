@@ -1,0 +1,10 @@
+{
+  "type": "GaussianNB",
+  "seed": 0,
+  "x_size": 9,
+  "y_size": 1,
+  "filter": {
+    "type": "Classifier$Closest",
+    "params": {}
+  }
+}
